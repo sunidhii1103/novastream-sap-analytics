@@ -1,5 +1,17 @@
-"__pycache__/" 
-"*.db" 
-".env" 
-"venv/" 
-"data/raw/" 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Databases
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/

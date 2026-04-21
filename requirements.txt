@@ -1,0 +1,6 @@
+pandas>=2.0.0
+SQLAlchemy>=2.0.0
+Faker>=20.0.0
+streamlit>=1.30.0
+pytest>=8.0.0
+plotly>=5.15.0
