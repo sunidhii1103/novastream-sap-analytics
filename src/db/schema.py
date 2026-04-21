@@ -52,7 +52,7 @@ dim_gl_account = Table(
 # Facts
 fct_o2c_transactions = Table(
     'fct_o2c_transactions', metadata,
-    Column('o2c_fact_id', BigInteger, primary_key=True, autoincrement=True),
+    Column('o2c_fact_id', Integer, primary_key=True, autoincrement=True),
     Column('order_date', Date),
     Column('order_id', String(20)),
     Column('order_item_id', String(20)),
@@ -76,7 +76,7 @@ fct_o2c_transactions = Table(
 
 fct_gl_reconciliation = Table(
     'fct_gl_reconciliation', metadata,
-    Column('gl_fact_id', BigInteger, primary_key=True, autoincrement=True),
+    Column('gl_fact_id', Integer, primary_key=True, autoincrement=True),
     Column('gl_doc_number', String(20)),
     Column('posting_date', Date),
     Column('gl_account', String(10)),
